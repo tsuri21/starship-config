@@ -30,7 +30,7 @@ palette = 'tsuri_theme'
 # ellipse_bg = "#1c223f" # dark blue variant
 # ellipse_bg = "#242424" # dark grey variant
 ellipse_bg = "#2E2E2E" # grey variant
-# host_and_user_fg = "#609580"
+# host_and_user_fg = "#5D2627" #homeserver
 host_and_user_fg = "#DDDDDD"
 git_fg = "#F16B51"
 
@@ -139,10 +139,10 @@ style = "fg:git_fg bg:ellipse_bg"
 format = '[$symbol$branch(:$topic)]($style)'
 
 [hostname]
-ssh_symbol = " "
+ssh_symbol = "@"
 # ssh_only = false
 style = "fg:host_and_user_fg bg:ellipse_bg"
-format = '[ $ssh_symbol$hostname]($style)'
+format = '[$ssh_symbol$hostname]($style)'
 
 [java]
 symbol = " "
